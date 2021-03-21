@@ -29,6 +29,5 @@ The class provide methods for creating container, uploading files or folders fro
 container_name
 local_path 
 dataset 
-container_name 
 overwrite
 ```
