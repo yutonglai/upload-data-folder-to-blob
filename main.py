@@ -5,7 +5,7 @@ import yaml
 # Load parameters
 param = yaml.load(open('param.yml'), Loader=yaml.FullLoader)
 container_name = param['container_name']
-local_path = param['source_path']
+local_path = param['local_path']
 dataset = param['dataset']
 
 # Initialization object SasToBlob
