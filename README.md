@@ -3,6 +3,7 @@ This project creates connectors to upload data or folders from local to Azure St
 
 
 ### Authorize request from application to Azure storage account
+It's necessary to set up connection between local machine and the Azure storage account before hand.
 #### Step 1
 * Sign in Azure potal -> Storage Account -> Settings -> Access keys -> Connection string
 * Copy the connection string.
