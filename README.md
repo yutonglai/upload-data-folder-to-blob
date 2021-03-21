@@ -25,8 +25,10 @@ The class provide methods for creating container, uploading files or folders fro
 * upload_folders
   * Files inside folders can be replaced by setting overwrite=True
 #### Parameters
+```
 container_name
 local_path 
 dataset 
 container_name 
 overwrite
+```
