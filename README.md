@@ -8,7 +8,7 @@ It's necessary to set up connection between local machine and the Azure storage 
 * Sign in Azure potal -> Storage Account -> Settings -> Access keys -> Connection string
 * Copy the connection string.
 #### Step 2
-* Write it into a new environment variable on local machine. In Windows, open cmd, run:
+* Write it into a new environment variable on local machine. On Windows 10, open cmd, run:
 ```
   setx AZURE_STORAGE_CONNECTION_STRING "<yourconnectionstring>"
 ```
