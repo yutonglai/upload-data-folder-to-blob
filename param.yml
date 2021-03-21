@@ -1,0 +1,13 @@
+---
+  container_name: 'yutong-test3'
+
+  source_path: 'D:/Python/test/upload-data-folder-to-blob/data/sas'
+
+  dataset:
+        - 'airline.sas7bdat'
+        - 'alcohol.sas7bdat'
+        - 'gold.sas7bdat'
+        - 'meat.sas7bdat'
+        - 'medical.sas7bdat'
+        - 'pub.sas7bdat'
+        - 'tax.sas7bdat'
