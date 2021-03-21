@@ -1,5 +1,7 @@
 ## upload-data-folder-to-blob
 This project creates connectors to upload data or folders from local to Azure Storage. 
+
+
 ### Authorize request from application to Azure storage account
 #### Step 1
 * Sign in Azure potal -> Storage Account -> Settings -> Access keys -> Connection string
@@ -11,3 +13,13 @@ This project creates connectors to upload data or folders from local to Azure St
 ```
 #### Step 3
 * Restart any application that will use this env vriable, eg. IDE etc.
+
+
+### SasToBlob Class
+The class provide methods for creating container, uploading files or folders from local machine to Azure Storage.
+#### Methods
+* create_container
+* upload_files
+  * Files can be replaced by setting overwrite=True
+* upload_folders
+  * Files inside folders can be replaced by setting overwrite=True
